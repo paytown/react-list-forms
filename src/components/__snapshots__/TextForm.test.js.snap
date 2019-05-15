@@ -2,11 +2,29 @@
 
 exports[`text formatter change the format of text input 1`] = `
 <Fragment>
+  <select
+    name="font"
+    onChange={[Function]}
+    value="Comic Sans MS"
+  >
+    <option
+      key="Comic Sans MS"
+      value="Comic Sans MS"
+    >
+      Comic Sans MS
+    </option>
+    <option
+      key="Papyrus"
+      value="Papyrus"
+    >
+      Papyrus
+    </option>
+  </select>
   <input
     name="text"
     onChange={[Function]}
     type="text"
-    value=""
+    value="Chose your favorite font and color ;)"
   />
   <input
     name="color"
@@ -18,8 +36,11 @@ exports[`text formatter change the format of text input 1`] = `
     style={
       Object {
         "color": "#ff0000",
+        "fontFamily": "Comic Sans MS",
       }
     }
-  />
+  >
+    Chose your favorite font and color ;)
+  </pre>
 </Fragment>
 `;
