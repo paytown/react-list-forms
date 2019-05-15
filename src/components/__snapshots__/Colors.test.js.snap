@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`color list renders colors from array 1`] = `
+<ul
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-around",
+      "width": "100%",
+    }
+  }
+/>
+`;
