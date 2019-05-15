@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text formatter change the format of text input 1`] = `
+<Fragment>
+  <input
+    name="text"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <input
+    name="color"
+    onChange={[Function]}
+    type="color"
+    value="#ff0000"
+  />
+  <pre
+    style={
+      Object {
+        "color": "#ff0000",
+      }
+    }
+  />
+</Fragment>
+`;
