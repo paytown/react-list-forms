@@ -1,0 +1,11 @@
+.App {
+  background-color: salmon;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 2rem;
+  
+  p{
+    color: whitesmoke;
+    margin-top: 40px;
+  }
+}

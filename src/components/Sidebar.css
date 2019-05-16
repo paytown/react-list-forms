@@ -1,0 +1,12 @@
+.Sidebar {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+  background-color: purple;
+
+  a {
+    font-size: 8em;
+    line-height: 1.2em;
+  }
+}
