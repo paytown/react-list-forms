@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`err boundary throws err instead of breaking page 1`] = `""`;
